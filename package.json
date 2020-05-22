@@ -1,0 +1,33 @@
+{
+  "name": "webpack-babel-basic-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "npm run build & npx serve ./dist",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dannegm/webpack-babel-basic-example.git"
+  },
+  "author": "dannegm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannegm/webpack-babel-basic-example/issues"
+  },
+  "homepage": "https://github.com/dannegm/webpack-babel-basic-example#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1"
+  }
+}
